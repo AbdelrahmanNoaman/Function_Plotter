@@ -6,9 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>636</width>
-    <height>701</height>
+    <width>373</width>
+    <height>635</height>
    </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
@@ -53,8 +59,8 @@ border:1px solid gold
 
 </string>
    </property>
-   <layout class="QVBoxLayout" name="verticalLayout">
-    <item>
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0">
      <widget class="QFrame" name="frame">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
@@ -71,8 +77,8 @@ border:1px solid gold
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <layout class="QHBoxLayout" name="horizontalLayout">
-       <item>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="0" column="0" alignment="Qt::AlignVCenter">
         <widget class="QWidget" name="sidemenu" native="true">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
@@ -95,723 +101,8 @@ border:1px solid gold
          <property name="styleSheet">
           <string notr="true">background :#000055</string>
          </property>
-         <layout class="QVBoxLayout" name="verticalLayout_2">
-          <item alignment="Qt::AlignHCenter|Qt::AlignBottom">
-           <widget class="QFrame" name="frame_2">
-            <property name="minimumSize">
-             <size>
-              <width>0</width>
-              <height>50</height>
-             </size>
-            </property>
-            <property name="frameShape">
-             <enum>QFrame::StyledPanel</enum>
-            </property>
-            <property name="frameShadow">
-             <enum>QFrame::Raised</enum>
-            </property>
-            <layout class="QHBoxLayout" name="horizontalLayout_2">
-             <item>
-              <widget class="QLabel" name="label">
-               <property name="font">
-                <font>
-                 <pointsize>20</pointsize>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true">QLabel:hover{
-color:#F1DDBF;
-}</string>
-               </property>
-               <property name="text">
-                <string>Function Plotter</string>
-               </property>
-              </widget>
-             </item>
-            </layout>
-           </widget>
-          </item>
-          <item alignment="Qt::AlignHCenter|Qt::AlignBottom">
-           <widget class="QFrame" name="frame_5">
-            <property name="minimumSize">
-             <size>
-              <width>200</width>
-              <height>0</height>
-             </size>
-            </property>
-            <property name="maximumSize">
-             <size>
-              <width>2000</width>
-              <height>16777215</height>
-             </size>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">background:#000055;</string>
-            </property>
-            <property name="frameShape">
-             <enum>QFrame::StyledPanel</enum>
-            </property>
-            <property name="frameShadow">
-             <enum>QFrame::Raised</enum>
-            </property>
-            <layout class="QVBoxLayout" name="verticalLayout_3">
-             <item alignment="Qt::AlignHCenter|Qt::AlignBottom">
-              <widget class="QFrame" name="frame_7">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
-               </property>
-               <property name="minimumSize">
-                <size>
-                 <width>300</width>
-                 <height>0</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>2000</width>
-                 <height>300</height>
-                </size>
-               </property>
-               <property name="styleSheet">
-                <string notr="true">background:#22577E;</string>
-               </property>
-               <property name="frameShape">
-                <enum>QFrame::StyledPanel</enum>
-               </property>
-               <property name="frameShadow">
-                <enum>QFrame::Raised</enum>
-               </property>
-               <layout class="QVBoxLayout" name="verticalLayout_4">
-                <item>
-                 <widget class="QLabel" name="label_2">
-                  <property name="font">
-                   <font>
-                    <pointsize>9</pointsize>
-                   </font>
-                  </property>
-                  <property name="styleSheet">
-                   <string notr="true">color:white;</string>
-                  </property>
-                  <property name="text">
-                   <string>Function</string>
-                  </property>
-                 </widget>
-                </item>
-                <item alignment="Qt::AlignVCenter">
-                 <widget class="QLineEdit" name="Expression">
-                  <property name="styleSheet">
-                   <string notr="true">QLineEdit{
-background:lightgrey;
-color:black;
-border:2px solid #000055
-}
-QLineEdit:focus{
-border:2px solid #0000cc
-}</string>
-                  </property>
-                 </widget>
-                </item>
-               </layout>
-              </widget>
-             </item>
-            </layout>
-           </widget>
-          </item>
-          <item alignment="Qt::AlignHCenter">
-           <widget class="QFrame" name="frame_6">
-            <property name="styleSheet">
-             <string notr="true">background:#000055;</string>
-            </property>
-            <property name="frameShape">
-             <enum>QFrame::StyledPanel</enum>
-            </property>
-            <property name="frameShadow">
-             <enum>QFrame::Raised</enum>
-            </property>
-            <layout class="QHBoxLayout" name="horizontalLayout_4">
-             <item alignment="Qt::AlignHCenter|Qt::AlignTop">
-              <widget class="QFrame" name="frame_9">
-               <property name="whatsThis">
-                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-               </property>
-               <property name="styleSheet">
-                <string notr="true"/>
-               </property>
-               <layout class="QVBoxLayout" name="verticalLayout_6">
-                <item alignment="Qt::AlignLeft">
-                 <widget class="QFrame" name="frame_11">
-                  <property name="styleSheet">
-                   <string notr="true">background:lightblue;</string>
-                  </property>
-                  <property name="frameShape">
-                   <enum>QFrame::StyledPanel</enum>
-                  </property>
-                  <property name="frameShadow">
-                   <enum>QFrame::Raised</enum>
-                  </property>
-                  <layout class="QHBoxLayout" name="horizontalLayout_5">
-                   <item>
-                    <widget class="QPushButton" name="Seven">
-                     <property name="minimumSize">
-                      <size>
-                       <width>50</width>
-                       <height>0</height>
-                      </size>
-                     </property>
-                     <property name="maximumSize">
-                      <size>
-                       <width>50</width>
-                       <height>16777215</height>
-                      </size>
-                     </property>
-                     <property name="styleSheet">
-                      <string notr="true">QPushButton{
-background:#F1DDBF;
-}
-QPushButton:hover{
-background:#22577E;
-color:white;
-}</string>
-                     </property>
-                     <property name="text">
-                      <string>7</string>
-                     </property>
-                    </widget>
-                   </item>
-                   <item>
-                    <widget class="QPushButton" name="Eight">
-                     <property name="minimumSize">
-                      <size>
-                       <width>50</width>
-                       <height>0</height>
-                      </size>
-                     </property>
-                     <property name="maximumSize">
-                      <size>
-                       <width>50</width>
-                       <height>16777215</height>
-                      </size>
-                     </property>
-                     <property name="styleSheet">
-                      <string notr="true">QPushButton{
-background:#F1DDBF;
-}
-QPushButton:hover{
-background:#22577E;
-color:white;
-}</string>
-                     </property>
-                     <property name="text">
-                      <string>8</string>
-                     </property>
-                    </widget>
-                   </item>
-                   <item>
-                    <widget class="QPushButton" name="Nine">
-                     <property name="minimumSize">
-                      <size>
-                       <width>50</width>
-                       <height>0</height>
-                      </size>
-                     </property>
-                     <property name="maximumSize">
-                      <size>
-                       <width>50</width>
-                       <height>16777215</height>
-                      </size>
-                     </property>
-                     <property name="styleSheet">
-                      <string notr="true">QPushButton{
-background:#F1DDBF;
-}
-QPushButton:hover{
-background:#22577E;
-color:white;
-}</string>
-                     </property>
-                     <property name="text">
-                      <string>9</string>
-                     </property>
-                    </widget>
-                   </item>
-                   <item>
-                    <widget class="QPushButton" name="X">
-                     <property name="minimumSize">
-                      <size>
-                       <width>50</width>
-                       <height>0</height>
-                      </size>
-                     </property>
-                     <property name="maximumSize">
-                      <size>
-                       <width>50</width>
-                       <height>16777215</height>
-                      </size>
-                     </property>
-                     <property name="styleSheet">
-                      <string notr="true">QPushButton{
-background:#F1DDBF;
-}
-QPushButton:hover{
-background:#22577E;
-color:white;
-}</string>
-                     </property>
-                     <property name="text">
-                      <string>x</string>
-                     </property>
-                    </widget>
-                   </item>
-                   <item>
-                    <widget class="QPushButton" name="division">
-                     <property name="minimumSize">
-                      <size>
-                       <width>50</width>
-                       <height>0</height>
-                      </size>
-                     </property>
-                     <property name="maximumSize">
-                      <size>
-                       <width>50</width>
-                       <height>16777215</height>
-                      </size>
-                     </property>
-                     <property name="styleSheet">
-                      <string notr="true">QPushButton{
-background:#F1DDBF;
-}
-QPushButton:hover{
-background:#22577E;
-color:white;
-}</string>
-                     </property>
-                     <property name="text">
-                      <string>/</string>
-                     </property>
-                    </widget>
-                   </item>
-                  </layout>
-                 </widget>
-                </item>
-                <item alignment="Qt::AlignLeft">
-                 <widget class="QFrame" name="frame_13">
-                  <property name="styleSheet">
-                   <string notr="true">background:lightblue;</string>
-                  </property>
-                  <property name="frameShape">
-                   <enum>QFrame::StyledPanel</enum>
-                  </property>
-                  <property name="frameShadow">
-                   <enum>QFrame::Raised</enum>
-                  </property>
-                  <layout class="QHBoxLayout" name="horizontalLayout_6">
-                   <item>
-                    <widget class="QPushButton" name="Four">
-                     <property name="minimumSize">
-                      <size>
-                       <width>50</width>
-                       <height>0</height>
-                      </size>
-                     </property>
-                     <property name="maximumSize">
-                      <size>
-                       <width>50</width>
-                       <height>16777215</height>
-                      </size>
-                     </property>
-                     <property name="styleSheet">
-                      <string notr="true">QPushButton{
-background:#F1DDBF;
-}
-QPushButton:hover{
-background:#22577E;
-color:white;
-}</string>
-                     </property>
-                     <property name="text">
-                      <string>4</string>
-                     </property>
-                    </widget>
-                   </item>
-                   <item>
-                    <widget class="QPushButton" name="Five">
-                     <property name="minimumSize">
-                      <size>
-                       <width>50</width>
-                       <height>0</height>
-                      </size>
-                     </property>
-                     <property name="maximumSize">
-                      <size>
-                       <width>50</width>
-                       <height>16777215</height>
-                      </size>
-                     </property>
-                     <property name="styleSheet">
-                      <string notr="true">QPushButton{
-background:#F1DDBF;
-}
-QPushButton:hover{
-background:#22577E;
-color:white;
-}</string>
-                     </property>
-                     <property name="text">
-                      <string>5</string>
-                     </property>
-                    </widget>
-                   </item>
-                   <item>
-                    <widget class="QPushButton" name="Six">
-                     <property name="minimumSize">
-                      <size>
-                       <width>50</width>
-                       <height>0</height>
-                      </size>
-                     </property>
-                     <property name="maximumSize">
-                      <size>
-                       <width>50</width>
-                       <height>16777215</height>
-                      </size>
-                     </property>
-                     <property name="styleSheet">
-                      <string notr="true">QPushButton{
-background:#F1DDBF;
-}
-QPushButton:hover{
-background:#22577E;
-color:white;
-}</string>
-                     </property>
-                     <property name="text">
-                      <string>6</string>
-                     </property>
-                    </widget>
-                   </item>
-                   <item>
-                    <widget class="QPushButton" name="Mul">
-                     <property name="minimumSize">
-                      <size>
-                       <width>50</width>
-                       <height>0</height>
-                      </size>
-                     </property>
-                     <property name="maximumSize">
-                      <size>
-                       <width>50</width>
-                       <height>16777215</height>
-                      </size>
-                     </property>
-                     <property name="styleSheet">
-                      <string notr="true">QPushButton{
-background:#F1DDBF;
-}
-QPushButton:hover{
-background:#22577E;
-color:white;
-}</string>
-                     </property>
-                     <property name="text">
-                      <string>*</string>
-                     </property>
-                    </widget>
-                   </item>
-                   <item>
-                    <widget class="QPushButton" name="power">
-                     <property name="minimumSize">
-                      <size>
-                       <width>50</width>
-                       <height>0</height>
-                      </size>
-                     </property>
-                     <property name="maximumSize">
-                      <size>
-                       <width>50</width>
-                       <height>16777215</height>
-                      </size>
-                     </property>
-                     <property name="styleSheet">
-                      <string notr="true">QPushButton{
-background:#F1DDBF;
-}
-QPushButton:hover{
-background:#22577E;
-color:white;
-}</string>
-                     </property>
-                     <property name="text">
-                      <string>^</string>
-                     </property>
-                    </widget>
-                   </item>
-                  </layout>
-                 </widget>
-                </item>
-                <item alignment="Qt::AlignLeft">
-                 <widget class="QFrame" name="frame_12">
-                  <property name="styleSheet">
-                   <string notr="true">background:lightblue;</string>
-                  </property>
-                  <property name="frameShape">
-                   <enum>QFrame::StyledPanel</enum>
-                  </property>
-                  <property name="frameShadow">
-                   <enum>QFrame::Raised</enum>
-                  </property>
-                  <layout class="QHBoxLayout" name="horizontalLayout_7">
-                   <item>
-                    <widget class="QPushButton" name="One">
-                     <property name="minimumSize">
-                      <size>
-                       <width>50</width>
-                       <height>0</height>
-                      </size>
-                     </property>
-                     <property name="maximumSize">
-                      <size>
-                       <width>50</width>
-                       <height>16777215</height>
-                      </size>
-                     </property>
-                     <property name="styleSheet">
-                      <string notr="true">QPushButton{
-background:#F1DDBF;
-}
-QPushButton:hover{
-background:#22577E;
-color:white;
-}</string>
-                     </property>
-                     <property name="text">
-                      <string>1</string>
-                     </property>
-                    </widget>
-                   </item>
-                   <item>
-                    <widget class="QPushButton" name="Two">
-                     <property name="minimumSize">
-                      <size>
-                       <width>50</width>
-                       <height>0</height>
-                      </size>
-                     </property>
-                     <property name="maximumSize">
-                      <size>
-                       <width>50</width>
-                       <height>16777215</height>
-                      </size>
-                     </property>
-                     <property name="styleSheet">
-                      <string notr="true">QPushButton{
-background:#F1DDBF;
-}
-QPushButton:hover{
-background:#22577E;
-color:white;
-}</string>
-                     </property>
-                     <property name="text">
-                      <string>2</string>
-                     </property>
-                    </widget>
-                   </item>
-                   <item>
-                    <widget class="QPushButton" name="Three">
-                     <property name="minimumSize">
-                      <size>
-                       <width>50</width>
-                       <height>0</height>
-                      </size>
-                     </property>
-                     <property name="maximumSize">
-                      <size>
-                       <width>50</width>
-                       <height>16777215</height>
-                      </size>
-                     </property>
-                     <property name="styleSheet">
-                      <string notr="true">QPushButton{
-background:#F1DDBF;
-}
-QPushButton:hover{
-background:#22577E;
-color:white;
-}</string>
-                     </property>
-                     <property name="text">
-                      <string>3</string>
-                     </property>
-                    </widget>
-                   </item>
-                   <item>
-                    <widget class="QPushButton" name="Subtract">
-                     <property name="minimumSize">
-                      <size>
-                       <width>50</width>
-                       <height>0</height>
-                      </size>
-                     </property>
-                     <property name="maximumSize">
-                      <size>
-                       <width>50</width>
-                       <height>16777215</height>
-                      </size>
-                     </property>
-                     <property name="styleSheet">
-                      <string notr="true">QPushButton{
-background:#F1DDBF;
-}
-QPushButton:hover{
-background:#22577E;
-color:white;
-}</string>
-                     </property>
-                     <property name="text">
-                      <string>-</string>
-                     </property>
-                    </widget>
-                   </item>
-                   <item>
-                    <widget class="QPushButton" name="Addition">
-                     <property name="minimumSize">
-                      <size>
-                       <width>50</width>
-                       <height>0</height>
-                      </size>
-                     </property>
-                     <property name="maximumSize">
-                      <size>
-                       <width>50</width>
-                       <height>16777215</height>
-                      </size>
-                     </property>
-                     <property name="styleSheet">
-                      <string notr="true">QPushButton{
-background:#F1DDBF;
-}
-QPushButton:hover{
-background:#22577E;
-color:white;
-}</string>
-                     </property>
-                     <property name="text">
-                      <string>+</string>
-                     </property>
-                    </widget>
-                   </item>
-                  </layout>
-                 </widget>
-                </item>
-                <item alignment="Qt::AlignLeft">
-                 <widget class="QFrame" name="frame_17">
-                  <property name="styleSheet">
-                   <string notr="true">background:lightblue;</string>
-                  </property>
-                  <property name="frameShape">
-                   <enum>QFrame::StyledPanel</enum>
-                  </property>
-                  <property name="frameShadow">
-                   <enum>QFrame::Raised</enum>
-                  </property>
-                  <layout class="QHBoxLayout" name="horizontalLayout_8">
-                   <item>
-                    <widget class="QPushButton" name="Zero">
-                     <property name="minimumSize">
-                      <size>
-                       <width>50</width>
-                       <height>0</height>
-                      </size>
-                     </property>
-                     <property name="maximumSize">
-                      <size>
-                       <width>50</width>
-                       <height>16777215</height>
-                      </size>
-                     </property>
-                     <property name="styleSheet">
-                      <string notr="true">QPushButton{
-background:#F1DDBF;
-}
-QPushButton:hover{
-background:#22577E;
-color:white;
-}</string>
-                     </property>
-                     <property name="text">
-                      <string>0</string>
-                     </property>
-                    </widget>
-                   </item>
-                   <item>
-                    <widget class="QPushButton" name="Delete">
-                     <property name="minimumSize">
-                      <size>
-                       <width>107</width>
-                       <height>0</height>
-                      </size>
-                     </property>
-                     <property name="maximumSize">
-                      <size>
-                       <width>107</width>
-                       <height>16777215</height>
-                      </size>
-                     </property>
-                     <property name="styleSheet">
-                      <string notr="true">QPushButton{
-background:#F1DDBF;
-}
-QPushButton:hover{
-background:#22577E;
-color:white;
-}</string>
-                     </property>
-                     <property name="text">
-                      <string>Delete</string>
-                     </property>
-                    </widget>
-                   </item>
-                   <item>
-                    <widget class="QPushButton" name="Clear">
-                     <property name="minimumSize">
-                      <size>
-                       <width>107</width>
-                       <height>0</height>
-                      </size>
-                     </property>
-                     <property name="maximumSize">
-                      <size>
-                       <width>107</width>
-                       <height>16777215</height>
-                      </size>
-                     </property>
-                     <property name="styleSheet">
-                      <string notr="true">QPushButton{
-background:#F1DDBF;
-}
-QPushButton:hover{
-background:#22577E;
-color:white;
-}</string>
-                     </property>
-                     <property name="text">
-                      <string>Clear</string>
-                     </property>
-                    </widget>
-                   </item>
-                  </layout>
-                 </widget>
-                </item>
-               </layout>
-              </widget>
-             </item>
-            </layout>
-           </widget>
-          </item>
-          <item alignment="Qt::AlignHCenter|Qt::AlignBottom">
+         <layout class="QGridLayout" name="gridLayout_5">
+          <item row="2" column="0" alignment="Qt::AlignTop">
            <widget class="QFrame" name="frame_3">
             <property name="frameShape">
              <enum>QFrame::StyledPanel</enum>
@@ -819,13 +110,19 @@ color:white;
             <property name="frameShadow">
              <enum>QFrame::Raised</enum>
             </property>
-            <layout class="QVBoxLayout" name="verticalLayout_5">
-             <item>
+            <layout class="QGridLayout" name="gridLayout_7">
+             <item row="6" column="0">
               <widget class="QFrame" name="frame_8">
+               <property name="minimumSize">
+                <size>
+                 <width>285</width>
+                 <height>0</height>
+                </size>
+               </property>
                <property name="maximumSize">
                 <size>
-                 <width>2000</width>
-                 <height>200</height>
+                 <width>500</width>
+                 <height>100</height>
                 </size>
                </property>
                <property name="styleSheet">
@@ -837,8 +134,8 @@ color:white;
                <property name="frameShadow">
                 <enum>QFrame::Raised</enum>
                </property>
-               <layout class="QHBoxLayout" name="horizontalLayout_3">
-                <item>
+               <layout class="QGridLayout" name="gridLayout_2">
+                <item row="0" column="0">
                  <widget class="QFrame" name="frame_10">
                   <property name="minimumSize">
                    <size>
@@ -880,12 +177,15 @@ QLineEdit:focus{
 border:2px solid #0000cc
 }</string>
                      </property>
+                     <property name="clearButtonEnabled">
+                      <bool>true</bool>
+                     </property>
                     </widget>
                    </item>
                   </layout>
                  </widget>
                 </item>
-                <item>
+                <item row="0" column="1">
                  <widget class="QFrame" name="frame_14">
                   <property name="frameShape">
                    <enum>QFrame::StyledPanel</enum>
@@ -921,6 +221,9 @@ QLineEdit:focus{
 border:2px solid #0000cc
 }</string>
                      </property>
+                     <property name="clearButtonEnabled">
+                      <bool>true</bool>
+                     </property>
                     </widget>
                    </item>
                   </layout>
@@ -929,20 +232,732 @@ border:2px solid #0000cc
                </layout>
               </widget>
              </item>
+             <item row="5" column="0">
+              <widget class="QFrame" name="frame_17">
+               <property name="minimumSize">
+                <size>
+                 <width>285</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>500</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background:lightblue;</string>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_8">
+                <item>
+                 <widget class="QPushButton" name="Zero">
+                  <property name="minimumSize">
+                   <size>
+                    <width>50</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>90</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+background:#F1DDBF;
+}
+QPushButton:hover{
+background:#22577E;
+color:white;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>0</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="Delete">
+                  <property name="minimumSize">
+                   <size>
+                    <width>100</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>200</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+background:#F1DDBF;
+}
+QPushButton:hover{
+background:#22577E;
+color:white;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>Delete</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="Clear">
+                  <property name="minimumSize">
+                   <size>
+                    <width>100</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>200</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+background:#F1DDBF;
+}
+QPushButton:hover{
+background:#22577E;
+color:white;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>Clear</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QFrame" name="frame_13">
+               <property name="minimumSize">
+                <size>
+                 <width>285</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>500</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background:lightblue;</string>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_6">
+                <item>
+                 <widget class="QPushButton" name="Four">
+                  <property name="minimumSize">
+                   <size>
+                    <width>50</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>100</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+background:#F1DDBF;
+}
+QPushButton:hover{
+background:#22577E;
+color:white;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>4</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="Five">
+                  <property name="minimumSize">
+                   <size>
+                    <width>50</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>100</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+background:#F1DDBF;
+}
+QPushButton:hover{
+background:#22577E;
+color:white;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>5</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="Six">
+                  <property name="minimumSize">
+                   <size>
+                    <width>50</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>100</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+background:#F1DDBF;
+}
+QPushButton:hover{
+background:#22577E;
+color:white;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>6</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="Mul">
+                  <property name="minimumSize">
+                   <size>
+                    <width>50</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>100</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+background:#F1DDBF;
+}
+QPushButton:hover{
+background:#22577E;
+color:white;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>*</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="power">
+                  <property name="minimumSize">
+                   <size>
+                    <width>50</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>100</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+background:#F1DDBF;
+}
+QPushButton:hover{
+background:#22577E;
+color:white;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>^</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QFrame" name="frame_7">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>285</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>500</width>
+                 <height>90</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background:#22577E;</string>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout">
+                <item row="0" column="0" alignment="Qt::AlignBottom">
+                 <widget class="QLabel" name="label_2">
+                  <property name="font">
+                   <font>
+                    <pointsize>9</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color:white;</string>
+                  </property>
+                  <property name="text">
+                   <string>Function</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0">
+                 <widget class="QLineEdit" name="Expression">
+                  <property name="styleSheet">
+                   <string notr="true">QLineEdit{
+background:lightgrey;
+color:black;
+border:2px solid #000055
+}
+QLineEdit:focus{
+border:2px solid #0000cc
+}</string>
+                  </property>
+                  <property name="clearButtonEnabled">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QFrame" name="frame_11">
+               <property name="minimumSize">
+                <size>
+                 <width>285</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>500</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background:lightblue;</string>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_5">
+                <item>
+                 <widget class="QPushButton" name="Seven">
+                  <property name="minimumSize">
+                   <size>
+                    <width>50</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>100</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+background:#F1DDBF;
+}
+QPushButton:hover{
+background:#22577E;
+color:white;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>7</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="Eight">
+                  <property name="minimumSize">
+                   <size>
+                    <width>50</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>100</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+background:#F1DDBF;
+}
+QPushButton:hover{
+background:#22577E;
+color:white;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>8</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="Nine">
+                  <property name="minimumSize">
+                   <size>
+                    <width>50</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>100</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+background:#F1DDBF;
+}
+QPushButton:hover{
+background:#22577E;
+color:white;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>9</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="X">
+                  <property name="minimumSize">
+                   <size>
+                    <width>50</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>100</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+background:#F1DDBF;
+}
+QPushButton:hover{
+background:#22577E;
+color:white;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>x</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="division">
+                  <property name="minimumSize">
+                   <size>
+                    <width>50</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>100</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+background:#F1DDBF;
+}
+QPushButton:hover{
+background:#22577E;
+color:white;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>\</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="4" column="0">
+              <widget class="QFrame" name="frame_12">
+               <property name="minimumSize">
+                <size>
+                 <width>285</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>500</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background:lightblue;</string>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_7">
+                <item>
+                 <widget class="QPushButton" name="One">
+                  <property name="minimumSize">
+                   <size>
+                    <width>50</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>100</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+background:#F1DDBF;
+}
+QPushButton:hover{
+background:#22577E;
+color:white;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>1</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="Two">
+                  <property name="minimumSize">
+                   <size>
+                    <width>50</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>100</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+background:#F1DDBF;
+}
+QPushButton:hover{
+background:#22577E;
+color:white;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>2</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="Three">
+                  <property name="minimumSize">
+                   <size>
+                    <width>50</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>100</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+background:#F1DDBF;
+}
+QPushButton:hover{
+background:#22577E;
+color:white;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>3</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="Subtract">
+                  <property name="minimumSize">
+                   <size>
+                    <width>50</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>100</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+background:#F1DDBF;
+}
+QPushButton:hover{
+background:#22577E;
+color:white;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>-</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="Addition">
+                  <property name="minimumSize">
+                   <size>
+                    <width>50</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>100</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+background:#F1DDBF;
+}
+QPushButton:hover{
+background:#22577E;
+color:white;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>+</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QFrame" name="frame_2">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_6">
+                <item row="0" column="0" alignment="Qt::AlignHCenter">
+                 <widget class="QLabel" name="label">
+                  <property name="font">
+                   <font>
+                    <pointsize>20</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QLabel:hover{
+color:#F1DDBF;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>Function Plotter</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
             </layout>
            </widget>
           </item>
-          <item alignment="Qt::AlignHCenter|Qt::AlignTop">
+          <item row="3" column="0" alignment="Qt::AlignHCenter|Qt::AlignBottom">
            <widget class="QFrame" name="frame_4">
             <property name="minimumSize">
              <size>
-              <width>0</width>
+              <width>285</width>
               <height>50</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
-              <width>16777215</width>
+              <width>500</width>
               <height>50</height>
              </size>
             </property>
@@ -955,8 +970,8 @@ border:2px solid #0000cc
             <property name="frameShadow">
              <enum>QFrame::Raised</enum>
             </property>
-            <layout class="QHBoxLayout" name="horizontalLayout_9">
-             <item>
+            <layout class="QGridLayout" name="gridLayout_8">
+             <item row="0" column="0">
               <widget class="QPushButton" name="INFO">
                <property name="minimumSize">
                 <size>
@@ -984,7 +999,7 @@ color:white;
                </property>
               </widget>
              </item>
-             <item>
+             <item row="0" column="1">
               <widget class="QPushButton" name="Plot_Button">
                <property name="minimumSize">
                 <size>
