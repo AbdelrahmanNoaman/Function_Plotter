@@ -79,14 +79,14 @@ Function-Plotter
 </ol>
 
 
-### Screenshots
+## Screenshots
 
-#### Main Screen
+### Main Screen
 
 ![start](Screenshots/Interface.jpeg)
 ![info](Screenshots/Info.jpeg)
 
-#### Graphs
+### Graphs
 
 ![graph1](Screenshots/Function1.jpeg)
 ![graph2](Screenshots/Function2.jpeg)
@@ -96,16 +96,16 @@ Function-Plotter
 
 
 
-#### Error messages
-# Invalid Expression
+### Error messages
+#### Invalid Expression
 ![Error1](Screenshots/InvalidExpression.jpeg)
-# Empty Function
+#### Empty Function
 ![Error2](Screenshots/EmptyFunctionError.jpeg)
-# Min is greater than Max
+#### Min is greater than Max
 ![Error3](Screenshots/ComparisonBetweenMaxMin.jpeg)
-# Fields are empty
+#### Fields are empty
 ![Error5](Screenshots/EmptyMax.jpeg)
-# Min or Max aren't a number
+#### Min or Max aren't a number
 ![Error6](Screenshots/InvalidMinMax.jpeg)
 
 ## Contributors
