@@ -7,11 +7,11 @@ def validateExpresion(expression):
     expression = expression.replace(" ", "")
     if expression == "":
         raise ValueError("Empty Function")
-    
     toMatch = "(-)?(\d+$)|((-)?(\d+[+-])?(\d+[\*\/])?[xX](\^\d+)?([+-](\d+)?([\*\/][xX](\^\d+)?)?)*)*$"
     matched = re.match(toMatch, expression)
     if not matched:
         raise ValueError("Invalid Expression, it must be like the expression in the info")
+        print("error")
     
     expression = expression.replace('^', '**').replace('X', 'x')
     
@@ -19,8 +19,6 @@ def validateExpresion(expression):
 #-------------------------------------------------------------------------------------
 def validateInteger(strNum):
     try:
-       
-
         num = int(strNum)
         return num
     except:
@@ -34,7 +32,6 @@ def validateMaxMinValues(minVal, maxVal):
         raise ValueError("Maximum must be greater than Minimum")
 #-------------------------------------------------------------------------------------
 def validateDivisionByZero(expression, minVal, maxVal):
-    print("hamada3")
     if expression.find('/X') != -1 or expression.find('/x') != -1 and minVal <= 0 and maxVal >= 0:
         return False
     return True

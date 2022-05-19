@@ -21,12 +21,9 @@ class Plotter:
     def CreatePoints(self):
 
         Xvalues=[]
-
         Yvalues=[]
         self.maxVal=self.maxVal+1
-
         testZeroDiv = ErrorHandler.validateDivisionByZero(self.expression, self.minVal, self.maxVal)
-
         for i in range(self.minVal, self.maxVal):
 
             Xvalues.append(i)
@@ -34,7 +31,6 @@ class Plotter:
                 Yvalues.append(float('inf'))
             else:    
                 Yvalues.append(self.func(i))   
-
         return Xvalues,Yvalues        
 
 

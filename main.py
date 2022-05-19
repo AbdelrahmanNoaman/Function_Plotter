@@ -14,7 +14,7 @@ class UI(QMainWindow):
         uic.loadUi('Interface.ui', self)
         self.show()
         self.setWindowTitle("Function Plotter")
-        self.setWindowIcon(QtGui.QIcon('E:\Python\PythonInterface\icons8-stocks-50.png'))
+        self.setWindowIcon(QtGui.QIcon('Images\icons8-stocks-50.png'))
         self.Plot_Button.clicked.connect(self.plot)
         self.INFO.clicked.connect(self.ShowInfo)  
         self.One.clicked.connect(lambda:self.SetFocusText1("1"))
@@ -45,7 +45,7 @@ class UI(QMainWindow):
         msg = QMessageBox()
         msg.setText("-The following operators are supported: + - / * ^ \n\n\n-The expression of the function must be in the format of\n 5*x^3 + 2*x\n \n-Keyboard is for the function only,because some of keys will be invalid in min and max fields")
         msg.setWindowTitle("Info")
-        msg.setWindowIcon(QtGui.QIcon("E:\Python\PythonInterface\icons8-info-50.png"))
+        msg.setWindowIcon(QtGui.QIcon("Images\icons8-info-50.png"))
         msg.setIcon(QMessageBox.Information)
         msg.exec_()
    
@@ -65,12 +65,11 @@ class UI(QMainWindow):
             plot.draw()
 
        except ValueError as errormsg:
-            print(self.Expression.text())
             err=errormsg.args[0]
             msg = QMessageBox()
             msg.setText(err)
             msg.setWindowTitle("Error")
-            msg.setWindowIcon(QtGui.QIcon("E:\Python\PythonInterface\icons8-error-50.png"))
+            msg.setWindowIcon(QtGui.QIcon("Images\icons8-error-50.png"))
             msg.setIcon(QMessageBox.Critical)
             msg.exec_()
             return    
