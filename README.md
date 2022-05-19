@@ -8,7 +8,7 @@
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
- 
+ <img src="Screenshots/task1.jpg" alt="Task 2">
 </div>
 
 ## 💻 Built With
