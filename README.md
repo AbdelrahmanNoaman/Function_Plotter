@@ -47,6 +47,7 @@ Function-Plotter
 ├── Interface.ui
 ├── ErrorHandler.py
 ├── main.py
+├── Testing.py
   </pre>
 </div>
 
