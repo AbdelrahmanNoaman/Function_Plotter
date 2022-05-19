@@ -26,7 +26,7 @@ GUI program that plots arbitrary user-entered function in his chosen range of in
 
 ## 📝 Description
 * Only the following operators are supported: + - / * ^.
-* Take a function of x from the user, e.g.,2*x+3*x*4. 
+* Take a function of x from the user, e.g.  2*x+3*x*4. 
 * Take min and max values of x from the user. 
 
 
