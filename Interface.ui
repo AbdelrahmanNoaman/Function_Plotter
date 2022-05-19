@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>373</width>
-    <height>635</height>
+    <width>1000</width>
+    <height>745</height>
    </rect>
   </property>
   <property name="maximumSize">
@@ -121,7 +121,7 @@ border:1px solid gold
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>500</width>
+                 <width>470</width>
                  <height>100</height>
                 </size>
                </property>
@@ -242,7 +242,7 @@ border:2px solid #0000cc
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>500</width>
+                 <width>470</width>
                  <height>16777215</height>
                 </size>
                </property>
@@ -266,7 +266,7 @@ border:2px solid #0000cc
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>90</width>
+                    <width>80</width>
                     <height>16777215</height>
                    </size>
                   </property>
@@ -294,7 +294,7 @@ color:white;
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>200</width>
+                    <width>172</width>
                     <height>16777215</height>
                    </size>
                   </property>
@@ -322,7 +322,7 @@ color:white;
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>200</width>
+                    <width>172</width>
                     <height>16777215</height>
                    </size>
                   </property>
@@ -353,7 +353,7 @@ color:white;
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>500</width>
+                 <width>470</width>
                  <height>16777215</height>
                 </size>
                </property>
@@ -377,7 +377,7 @@ color:white;
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>100</width>
+                    <width>80</width>
                     <height>16777215</height>
                    </size>
                   </property>
@@ -405,7 +405,7 @@ color:white;
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>100</width>
+                    <width>80</width>
                     <height>16777215</height>
                    </size>
                   </property>
@@ -433,7 +433,7 @@ color:white;
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>100</width>
+                    <width>80</width>
                     <height>16777215</height>
                    </size>
                   </property>
@@ -461,7 +461,7 @@ color:white;
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>100</width>
+                    <width>80</width>
                     <height>16777215</height>
                    </size>
                   </property>
@@ -489,7 +489,7 @@ color:white;
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>100</width>
+                    <width>80</width>
                     <height>16777215</height>
                    </size>
                   </property>
@@ -526,7 +526,7 @@ color:white;
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>500</width>
+                 <width>470</width>
                  <height>90</height>
                 </size>
                </property>
@@ -585,7 +585,7 @@ border:2px solid #0000cc
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>500</width>
+                 <width>470</width>
                  <height>16777215</height>
                 </size>
                </property>
@@ -609,7 +609,7 @@ border:2px solid #0000cc
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>100</width>
+                    <width>80</width>
                     <height>16777215</height>
                    </size>
                   </property>
@@ -637,7 +637,7 @@ color:white;
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>100</width>
+                    <width>80</width>
                     <height>16777215</height>
                    </size>
                   </property>
@@ -665,7 +665,7 @@ color:white;
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>100</width>
+                    <width>80</width>
                     <height>16777215</height>
                    </size>
                   </property>
@@ -693,7 +693,7 @@ color:white;
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>100</width>
+                    <width>80</width>
                     <height>16777215</height>
                    </size>
                   </property>
@@ -721,7 +721,7 @@ color:white;
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>100</width>
+                    <width>80</width>
                     <height>16777215</height>
                    </size>
                   </property>
@@ -752,7 +752,7 @@ color:white;
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>500</width>
+                 <width>470</width>
                  <height>16777215</height>
                 </size>
                </property>
@@ -776,7 +776,7 @@ color:white;
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>100</width>
+                    <width>80</width>
                     <height>16777215</height>
                    </size>
                   </property>
@@ -804,7 +804,7 @@ color:white;
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>100</width>
+                    <width>80</width>
                     <height>16777215</height>
                    </size>
                   </property>
@@ -832,7 +832,7 @@ color:white;
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>100</width>
+                    <width>80</width>
                     <height>16777215</height>
                    </size>
                   </property>
@@ -860,7 +860,7 @@ color:white;
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>100</width>
+                    <width>80</width>
                     <height>16777215</height>
                    </size>
                   </property>
@@ -888,7 +888,7 @@ color:white;
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>100</width>
+                    <width>80</width>
                     <height>16777215</height>
                    </size>
                   </property>
@@ -957,7 +957,7 @@ color:#F1DDBF;
             </property>
             <property name="maximumSize">
              <size>
-              <width>500</width>
+              <width>470</width>
               <height>50</height>
              </size>
             </property>
@@ -981,7 +981,7 @@ color:#F1DDBF;
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>30</width>
+                 <width>80</width>
                  <height>30</height>
                 </size>
                </property>
@@ -1009,7 +1009,7 @@ color:white;
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>120</width>
+                 <width>180</width>
                  <height>30</height>
                 </size>
                </property>

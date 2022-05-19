@@ -91,15 +91,20 @@ Function-Plotter
 ![graph2](Screenshots/Function2.jpeg)
 ![graph3](Screenshots/Function3.jpeg)
 ![graph4](Screenshots/Function4.jpeg)
+![graph4](Screenshots/Function5.jpeg)
 
 
 
 #### Error messages
+# Invalid Expression
 ![Error1](Screenshots/InvalidExpression.jpeg)
+# Empty Function
 ![Error2](Screenshots/EmptyFunctionError.jpeg)
+# Min is greater than Max
 ![Error3](Screenshots/ComparisonBetweenMaxMin.jpeg)
-![Error4](Screenshots/Empty%20field.jpeg)
+# Fields are empty
 ![Error5](Screenshots/EmptyMax.jpeg)
+# Min or Max aren't a number
 ![Error6](Screenshots/InvalidMinMax.jpeg)
 
 ## Contributors
