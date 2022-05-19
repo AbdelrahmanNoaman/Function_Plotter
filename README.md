@@ -82,7 +82,7 @@ Function-Plotter
 
 #### Main Screen
 
-![start](Screenshots/Infterface.jpeg)
+![start](Screenshots/Interface.jpeg)
 ![info](Screenshots/Info.jpeg)
 
 #### Graphs
