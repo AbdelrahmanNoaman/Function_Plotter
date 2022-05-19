@@ -28,13 +28,6 @@ GUI program that plots arbitrary user-entered function in his chosen range of in
 * Only the following operators are supported: + - / * ^.
 * Take a function of x from the user, e.g.  2*x+3*x*4. 
 * Take min and max values of x from the user. 
-
-
-## 🏁 Getting Started
-<blockquote>
-  <p>This is a list of needed instructions to set up your project locally, to get a local copy up and running  please follow these instructuins.
- </p>
-</blockquote>
 <h2 href="#structure">File Structure</h2>
  <div> 
   <pre>
@@ -50,6 +43,12 @@ Function-Plotter
 ├── Testing.py
   </pre>
 </div>
+
+## 🏁 Getting Started
+<blockquote>
+  <p>This is a list of needed instructions to set up your project locally, to get a local copy up and running  please follow these instructuins.
+ </p>
+</blockquote>
 
 <h3 href="#installation">Installation</h3>
 <ol>
